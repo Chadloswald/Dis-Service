@@ -1,0 +1,94 @@
+{
+    "sourceFile": "docs/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1683001460124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683047293500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,41 @@\n   }\r\n   \r\n   #checkbox-grid label {\r\n \tdisplay: block;\r\n-  }\n\\ No newline at end of file\n+  }\r\n+\r\n+  header {\r\n+\tbackground-color: #333;\r\n+\tcolor: #fff;\r\n+\tdisplay: flex;\r\n+\tjustify-content: space-between;\r\n+\talign-items: center;\r\n+\tpadding: 20px;\r\n+  }\r\n+  \r\n+  .logo {\r\n+\tdisplay: flex;\r\n+\talign-items: center;\r\n+  }\r\n+  \r\n+  .logo img {\r\n+\theight: 50px;\r\n+\tmargin-right: 10px;\r\n+  }\r\n+  \r\n+  nav ul {\r\n+\tdisplay: flex;\r\n+\tlist-style: none;\r\n+  }\r\n+  \r\n+  nav li {\r\n+\tmargin-left: 20px;\r\n+  }\r\n+  \r\n+  nav a {\r\n+\tcolor: #fff;\r\n+\ttext-decoration: none;\r\n+\tfont-weight: bold;\r\n+\tfont-size: 18px;\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683047612870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n \talign-items: center;\r\n   }\r\n   \r\n   .logo img {\r\n-\theight: 50px;\r\n+\theight: 80px;\r\n \tmargin-right: 10px;\r\n   }\r\n   \r\n   nav ul {\r\n"
+                },
+                {
+                    "date": 1683047815732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \tdisplay: block;\r\n   }\r\n \r\n   header {\r\n-\tbackground-color: #333;\r\n+\tbackground-color: #f86fb5;\r\n \tcolor: #fff;\r\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n"
+                },
+                {
+                    "date": 1683047882284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n \talign-items: center;\r\n   }\r\n   \r\n   .logo img {\r\n-\theight: 80px;\r\n+\theight: 100px;\r\n \tmargin-right: 10px;\r\n   }\r\n   \r\n   nav ul {\r\n"
+                },
+                {
+                    "date": 1683047930743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \tmargin-left: 20px;\r\n   }\r\n   \r\n   nav a {\r\n-\tcolor: #fff;\r\n+\tcolor: black;\r\n \ttext-decoration: none;\r\n \tfont-weight: bold;\r\n \tfont-size: 18px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1683047941332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   }\r\n \r\n   header {\r\n \tbackground-color: #f86fb5;\r\n-\tcolor: #fff;\r\n+\tcolor: black;\r\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n \tpadding: 20px;\r\n"
+                },
+                {
+                    "date": 1683048002854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n \tpadding: 20px;\r\n+\tborder-radius: 10px;\r\n   }\r\n   \r\n   .logo {\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683048015929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n \tpadding: 20px;\r\n-\tborder-radius: 10px;\r\n+\tborder-radius: 15px;\r\n   }\r\n   \r\n   .logo {\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683048057900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n   }\r\n   \r\n   .logo img {\r\n \theight: 100px;\r\n-\tmargin-right: 10px;\r\n+\t/* margin-right: 10px; */\r\n   }\r\n   \r\n   nav ul {\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683048072274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n   }\r\n   \r\n   .logo img {\r\n \theight: 100px;\r\n-\t/* margin-right: 10px; */\r\n+\tmargin-right: 15px;\r\n   }\r\n   \r\n   nav ul {\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683048116680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,7 @@\n   nav a {\r\n \tcolor: black;\r\n \ttext-decoration: none;\r\n \tfont-weight: bold;\r\n-\tfont-size: 18px;\r\n+\tfont-size: 30px;\r\n   }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683048126302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,7 @@\n   nav a {\r\n \tcolor: black;\r\n \ttext-decoration: none;\r\n \tfont-weight: bold;\r\n-\tfont-size: 30px;\r\n+\tfont-size: 20px;\r\n   }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683048152669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \tcolor: black;\r\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n-\tpadding: 20px;\r\n+\tpadding: 10px;\r\n \tborder-radius: 15px;\r\n   }\r\n   \r\n   .logo {\r\n"
+                },
+                {
+                    "date": 1683048162777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \tcolor: black;\r\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n-\tpadding: 10px;\r\n+\tpadding: 5px;\r\n \tborder-radius: 15px;\r\n   }\r\n   \r\n   .logo {\r\n"
+                },
+                {
+                    "date": 1683048278638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,12 @@\n \talign-items: center;\r\n \tpadding: 5px;\r\n \tborder-radius: 15px;\r\n   }\r\n+\r\n+  header h1 {\r\n+\tfont-size: 22px;\r\n+  }\r\n   \r\n   .logo {\r\n \tdisplay: flex;\r\n \talign-items: center;\r\n"
+                },
+                {
+                    "date": 1683050128601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   }\r\n \r\n   header {\r\n \tbackground-color: #f86fb5;\r\n-\tcolor: black;\r\n+\tcolor: whitesmoke;\r\n \tdisplay: flex;\r\n \tjustify-content: space-between;\r\n \talign-items: center;\r\n \tpadding: 5px;\r\n"
+                },
+                {
+                    "date": 1683050629285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,9 @@\n \ttext-decoration: none;\r\n \tfont-weight: bold;\r\n \tfont-size: 20px;\r\n   }\r\n+  \r\n+  p {\r\n+\tmax-width: 600px;\r\n+  }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683085619080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,8 @@\n   \r\n   p {\r\n \tmax-width: 600px;\r\n   }\r\n-  \n\\ No newline at end of file\n+  \r\n+  #gif {\r\n+\tdisplay: none;\r\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683086645289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,5 @@\n   }\r\n   \r\n   p {\r\n \tmax-width: 600px;\r\n-  }\r\n-  \r\n-  #gif {\r\n-\tdisplay: none;\r\n   }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1683001460123,
+            "name": "Commit-0",
+            "content": "label {\r\n\tdisplay: block;\r\n}\r\n\r\n#checkbox-grid {\r\n\tdisplay: grid;\r\n\tgrid-template-columns: repeat(3, 1fr);\r\n\tgrid-gap: 10px;\r\n  }\r\n  \r\n  #checkbox-grid label {\r\n\tdisplay: block;\r\n  }"
+        }
+    ]
+}

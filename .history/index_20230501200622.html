@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dis-Service</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<h1>User Form</h1>
+
+	<form>
+		<label>
+			First Name:
+			<input type="text" name="firstname" id="firstname">
+		</label>
+		<label>
+			Last Name:
+			<input type="text" name="lastname" id="lastname">
+		</label>
+		<!-- ----------------------------------------- -->
+		<label>
+			<input type="checkbox" name="option1" value="cruel">
+			Kind
+		</label>
+		<label>
+			<input type="checkbox" name="option2" value="arrogant">
+			Humble
+		</label>
+		<label>
+			<input type="checkbox" name="option3" value="mundane">
+			Creative
+		</label>
+		<label>
+			<input type="checkbox" name="option4" vaue="greedy">
+			Generous
+		</label>
+		<label>
+			<input type="checkbox" name="option5" value="irrecponsible">
+			Responsible
+		</label>
+		<label>
+			<input type="checkbox" name="option6" value="cowardly">
+			Courageous
+		</label>
+		<label>
+			<input type="checkbox" name="option7"value="insecure">
+			Confident
+		</label>
+		<label>
+			<input type="checkbox" name="option8" value="ungrateful">
+			Gracious
+		</label>
+		<label>
+			<input type="checkbox" name="option9" value="apathetic">
+			Ambitious
+		</label>
+		<!-- ------------------------------------------------- -->
+		<label>
+			Select an option:
+			<select id="dropdown">
+				<option value="option1">Option 1</option>
+				<option value="option2">Option 2</option>
+				<option value="option3">Option 3</option>
+				<option value="option4">Option 4</option>
+				<option value="option5">Option 5</option>
+				<option value="option6">Option 6</option>
+				<option value="option7">Option 7</option>
+				<option value="option8">Option 8</option>
+				<option value="option9">Option 9</option>
+				<option value="option10">Option 10</option>
+			</select>
+		</label>
+		<input type="submit" value="Submit" onclick="displayMessage()">
+	</form>
+</body>
+</html>

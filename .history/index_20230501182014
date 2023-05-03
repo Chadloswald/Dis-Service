@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkboxes Example</title>
+</head>
+<body>
+	<h1>Checkboxes Example</h1>
+	
+	<fieldset>
+		<legend>Set 1</legend>
+		<input type="checkbox" name="set1" value="1"> Checkbox 1
+		<input type="checkbox" name="set1" value="2"> Checkbox 2
+		<input type="checkbox" name="set1" value="3"> Checkbox 3
+		<input type="checkbox" name="set1" value="4"> Checkbox 4
+		<input type="checkbox" name="set1" value="5"> Checkbox 5
+		<input type="checkbox" name="set1" value="6"> Checkbox 6
+		<input type="checkbox" name="set1" value="7"> Checkbox 7
+		<input type="checkbox" name="set1" value="8"> Checkbox 8
+		<input type="checkbox" name="set1" value="9"> Checkbox 9
+	</fieldset>
+	
+	<fieldset>
+		<legend>Set 2</legend>
+		<input type="checkbox" name="set2" value="1"> Checkbox 1
+		<input type="checkbox" name="set2" value="2"> Checkbox 2
+		<input type="checkbox" name="set2" value="3"> Checkbox 3
+		<input type="checkbox" name="set2" value="4"> Checkbox 4
+		 <input type="checkbox" name="set2" value="5"> Checkbox 5
+		<input type="checkbox" name="set2" value="6"> Checkbox 6
+		<input type="checkbox" name="set2" value="7"> Checkbox 7
+		<input type="checkbox" name="set2" value="8"> Checkbox 8
+		<input type="checkbox" name="set2" value="9"> Checkbox 9
+	</fieldset>
+	
+	<fieldset>
+		<legend>Set 3</legend>
+		<input type="checkbox" name="set3" value="1"> Checkbox 1
+		<input type="checkbox" name="set3" value="2"> Checkbox 2
+		<input type="checkbox" name="set3" value="3"> Checkbox 3
+		<input type="checkbox" name="set3" value="4"> Checkbox 4
+		<input type="checkbox" name="set3" value="5"> Checkbox 5
+		<input type="checkbox" name="set3" value="6"> Checkbox 6
+		<input type="checkbox" name="set3" value="7"> Checkbox 7
+		<input type="checkbox" name="set3" value="8"> Checkbox 8
+		<input type="checkbox" name="set3" value="9"> Checkbox 9
+	</fieldset>
+
+</body>
+</html>
