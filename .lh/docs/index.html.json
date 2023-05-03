@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1683001442382,
@@ -152,6 +152,14 @@
                 {
                     "date": 1683086272189,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,7 +115,7 @@\n \t\t</label>\r\n \t\t<br><br>\r\n \t\t<input type=\"submit\" value=\"Submit\" onclick=\"displayMessage()\">\r\n \t</form>\r\n-\t<img id=\"gif\" alt=\"\" src=\"catdance.gif\">\r\n+\t\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683134553334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,8 +110,9 @@\n \t\t\t\t<option value=\"option10\">Volunteering</option>\r\n \t\t\t\t<option value=\"option10\">Woodworking</option>\r\n \t\t\t\t<option value=\"option10\">Writing</option>\r\n \t\t\t\t<option value=\"option10\">Yoga</option>\r\n+\t\t\t\t<option value=\"you're telling me that your passion isn't listed? I guess there is always going to be someone who's into pirates or some crap\">Other</option>\r\n \t\t\t</select>\r\n \t\t</label>\r\n \t\t<br><br>\r\n \t\t<input type=\"submit\" value=\"Submit\" onclick=\"displayMessage()\">\r\n"
+                },
+                {
+                    "date": 1683134900031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -108,9 +108,9 @@\n \t\t\t\t<option value=\"you sing like a bird. A bird that I hate\">Singing</option>\r\n \t\t\t\t<option value=\"option10\">Traveling</option>\r\n \t\t\t\t<option value=\"option10\">Volunteering</option>\r\n \t\t\t\t<option value=\"option10\">Woodworking</option>\r\n-\t\t\t\t<option value=\"option10\">Writing</option>\r\n+\t\t\t\t<option value=\"I didn't know you were a writer. I thought you were a magician the way you make peers disappear after reading your drafts\">Writing</option>\r\n \t\t\t\t<option value=\"option10\">Yoga</option>\r\n \t\t\t\t<option value=\"you're telling me that your passion isn't listed? I guess there is always going to be someone who's into pirates or some crap\">Other</option>\r\n \t\t\t</select>\r\n \t\t</label>\r\n"
                 }
             ],
             "date": 1683001442382,

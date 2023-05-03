@@ -18,7 +18,7 @@ function displayMessage() {
 	var selectedOption = dropdown.options[dropdown.selectedIndex].value;
 
 	// create an array of names
-	var names = ["Smellward", "Poopington", "Fartsman", "Cheesewick", "McLoser", "Hoobitoob", "Cramsworth", "Plooperbum", "Frimblebim", "Feebrizz", "Skibblecheeks", "Crotchworth", "Dummy Dum Dum", "Pooperpants", "Butts", "Peachfuzz", "Diapy", "Noober", "Dingus", "Brickhead", "Garbo", "Crungo", "Gabnon", "Jackanapes", "Wretch", "Peasant"];
+	var names = ["Smellward", "Poopington", "Fartsman", "Cheesewick", "McLoser", "Hoobitoob", "Cramsworth", "Plooperbum", "Frimblebim", "Feebrizz", "Skibblecheeks", "Crotchworth", "Dummy Dum Dum", "Pooperpants", "Butts", "Peachfuzz", "Diapy", "Noober", "Dingus", "Brickhead", "Garbo", "Crungo", "Gabnon"];
 
 	// randomly select two names from the array
 	var randomIndex1 = Math.floor(Math.random() * names.length);
