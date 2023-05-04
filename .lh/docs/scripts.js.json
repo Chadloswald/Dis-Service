@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 41,
+            "activePatchIndex": 42,
             "patches": [
                 {
                     "date": 1683000720631,
@@ -172,6 +172,10 @@
                 {
                     "date": 1683222264631,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,7 @@\n \r\n \tvar gif = document.getElementById(\"gif\");\r\n \tgif.style.display = \"block\";\r\n \r\n-\t// var audio = new Audio('meme.mp3');\r\n-\t// audio.play();\r\n-\r\n \tvar popup = window.open(\"\", \"Popup\", \"width=400,height=200\");\r\n \tpopup.document.write(title + \"\\n\\n\" + message);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683223417064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \tvar dropdown = document.getElementById(\"dropdown\");\r\n \tvar selectedOption = dropdown.options[dropdown.selectedIndex].value;\r\n \r\n \t// create an array of names\r\n-\tvar names = [\"Smellward\", \"Poopington\", \"Fartsman\", \"Cheesewick\", \"McLoser\", \"Hoobitoob\", \"Cramsworth\", \"Plooperbum\", \"Frimblebim\", \"Feebrizz\", \"Skibblecheeks\", \"Crotchworth\", \"Dummy Dum Dum\", \"Pooperpants\", \"Butts\", \"Peachfuzz\", \"Diapy\", \"Noober\"];\r\n+\tvar names = [\"Smellward\", \"Poopington\", \"Fartsman\", \"Cheesewick\", \"McLoser\", \"Hoobitoob\", \"Cramsworth\", \"Plooperbum\", \"Frimblebim\", \"Feebrizz\", \"Skibblecheeks\", \"Crotchworth\", \"Dummy Dum Dum\", \"Pooperpants\", \"Butts\", \"Peachfuzz\", \"Diapy\", \"Noober\", \"Dingus\", \"Brickhead\", \"Garbo\", \"Crungo\", \"Gabnon\", \"Jackanapes\", \"Wretch\", \"Peasant\"];\r\n \r\n \t// randomly select two names from the array\r\n \tvar randomIndex1 = Math.floor(Math.random() * names.length);\r\n \tvar randomIndex2 = Math.floor(Math.random() * names.length);\r\n@@ -27,12 +27,10 @@\n \tvar randomName1 = names[randomIndex1];\r\n \tvar randomName2 = names[randomIndex2];\r\n \r\n \t// construct the message\r\n-\tvar message = \"<br><br>Hey \" + firstname + \" \" + lastname + \"! Here's a message to cheer you up! You are an \" + selected.join(\", \") + \" little jerk, and \" + selectedOption + \". <br><br>You have lost the right to use the name \" + firstname + \" \" + lastname + \", you nerd. You will be henceforth known as \" + randomName1 + \" \" + randomName2 + \". May shame follow your family for 1000 years.\";\r\n+\tvar message = \"<br><br>Hey \" + firstname + \" \" + lastname + \"! Here's a message to cheer you up! You are a(n) \" + selected.join(\", \") + \" little jerk, and \" + selectedOption + \". <br><br>You have lost the right to use the name \" + firstname + \" \" + lastname + \", you nerd. You will be henceforth known as \" + randomName1 + \" \" + randomName2 + \". May shame follow your family for 1000 years.\";\r\n \r\n-\tvar gif = document.getElementById(\"gif\");\r\n-\tgif.style.display = \"block\";\r\n-\r\n-\tvar popup = window.open(\"\", \"Popup\", \"width=400,height=200\");\r\n-\tpopup.document.write(title + \"\\n\\n\" + message);\r\n+\tvar popup = window.open(\"\", \"Popup\", \"width=400,height=800\");\r\n+\t// popup.document.write(title + \"\\n\\n\" + message);\r\n+\tpopup.document.write(\"<html><head>\" + title + \"</head><body>\" + message + \"<br><br><img src='catdance.gif'></body></html>\");\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1683000720631,
