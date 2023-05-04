@@ -34,7 +34,7 @@ function displayMessage() {
 	gif.style.display = "block";
 
 	var popup = window.open("", "Popup", "width=400,height=200");
-	popup.document.write(title + "\n\n" + message);
+	popup.document.write(title + "\n\n" + message + "<br><br><audio autoplay><source src='meme.mp3' type='audio/mpeg'></audio>");
 	
 	playAudio();
 }
