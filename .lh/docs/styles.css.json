@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1683001460124,
@@ -92,6 +92,10 @@
                 {
                     "date": 1683220309357,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,62 +53,5 @@\n   }\r\n   \r\n   p {\r\n \tmax-width: 600px;\r\n-  }\n-label {\r\n-\tdisplay: block;\r\n-}\r\n-\r\n-#checkbox-grid {\r\n-\tdisplay: grid;\r\n-\tgrid-template-columns: repeat(3, 1fr);\r\n-\tgrid-gap: 10px;\r\n-  }\r\n-  \r\n-  #checkbox-grid label {\r\n-\tdisplay: block;\r\n-  }\r\n-\r\n-  header {\r\n-\tbackground-color: #f86fb5;\r\n-\tcolor: whitesmoke;\r\n-\tdisplay: flex;\r\n-\tjustify-content: space-between;\r\n-\talign-items: center;\r\n-\tpadding: 5px;\r\n-\tborder-radius: 15px;\r\n-  }\r\n-\r\n-  header h1 {\r\n-\tfont-size: 22px;\r\n-  }\r\n-  \r\n-  .logo {\r\n-\tdisplay: flex;\r\n-\talign-items: center;\r\n-  }\r\n-  \r\n-  .logo img {\r\n-\theight: 100px;\r\n-\tmargin-right: 15px;\r\n-  }\r\n-  \r\n-  nav ul {\r\n-\tdisplay: flex;\r\n-\tlist-style: none;\r\n-  }\r\n-  \r\n-  nav li {\r\n-\tmargin-left: 20px;\r\n-  }\r\n-  \r\n-  nav a {\r\n-\tcolor: black;\r\n-\ttext-decoration: none;\r\n-\tfont-weight: bold;\r\n-\tfont-size: 20px;\r\n-  }\r\n-  \r\n-  p {\r\n-\tmax-width: 600px;\r\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683499217137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,5 +53,15 @@\n   }\r\n   \r\n   p {\r\n \tmax-width: 600px;\r\n+  }\r\n+\r\n+  footer {\r\n+\tbackground-color: #f86fb5;\r\n+\tcolor: whitesmoke;\r\n+\tdisplay: flex;\r\n+\tjustify-content: space-between;\r\n+\talign-items: center;\r\n+\tpadding: 5px;\r\n+\tborder-radius: 15px;\r\n   }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1683001460123,

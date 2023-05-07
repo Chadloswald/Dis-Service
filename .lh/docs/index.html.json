@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 51,
+            "activePatchIndex": 53,
             "patches": [
                 {
                     "date": 1683001442382,
@@ -212,6 +212,14 @@
                 {
                     "date": 1683498122495,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,11 @@\n \t\t</div>\r\n \t\t<nav>\r\n \t\t  <ul>\r\n \t\t\t<li><a href=\"#\">Home</a></li>\r\n-\t\t\t<li><a href=\"#\">About</a></li>\r\n-\t\t\t<li><a href=\"#\">Services</a></li>\r\n-\t\t\t<li><a href=\"#\">Contact</a></li>\r\n+\t\t\t<li><a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">About</a></li>\r\n+\t\t\t<li><a href=\"https://www.youtube.com/watch?v=ZZ5LpwO-An4\">Services</a></li>\r\n+\t\t\t<li><a href=\"https://www.youtube.com/watch?v=oavMtUWDBTM\">Contact</a></li>\r\n \t\t  </ul>\r\n \t\t</nav>\r\n \t  </header>\t  \r\n \t<h1>The Vibe Fixer</h1>\r\n"
+                },
+                {
+                    "date": 1683499135014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,5 +118,8 @@\n \t\t<input type=\"submit\" value=\"Submit\" onclick=\"displayMessage()\">\r\n \t</form>\r\n \t\r\n </body>\r\n+<footer>\r\n+\t<p>&copy; 2023 Vibe Check. All rights reserved.</p>\r\n+  </footer>  \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683499175344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n \t\t</label>\r\n \t\t<br><br>\r\n \t\t<input type=\"submit\" value=\"Submit\" onclick=\"displayMessage()\">\r\n \t</form>\r\n-\t\r\n+\t<br><br>\r\n </body>\r\n <footer>\r\n \t<p>&copy; 2023 Vibe Check. All rights reserved.</p>\r\n   </footer>  \r\n"
                 }
             ],
             "date": 1683001442382,
