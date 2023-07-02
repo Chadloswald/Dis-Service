@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 54,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1683001442382,
@@ -224,6 +224,10 @@
                 {
                     "date": 1688333392238,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <!DOCTYPE html>\r\n <html>\r\n <head>\r\n \t<title>Dis-Service</title>\r\n+\t<link rel=\"icon\" href=\"VCFavicon.png\" type=\"image/x-icon\">\r\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\r\n \t<script src=\"scripts.js\"></script>\r\n </head>\r\n <body>\r\n"
+                },
+                {
+                    "date": 1688333457616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <!DOCTYPE html>\r\n <html>\r\n-<head>\r\n+<head><meta charset=\"utf-8\">\r\n \t<title>Dis-Service</title>\r\n \t<link rel=\"icon\" href=\"VCFavicon.png\" type=\"image/x-icon\">\r\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\r\n \t<script src=\"scripts.js\"></script>\r\n"
                 }
             ],
             "date": 1683001442382,
