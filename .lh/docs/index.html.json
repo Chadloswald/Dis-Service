@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 53,
+            "activePatchIndex": 54,
             "patches": [
                 {
                     "date": 1683001442382,
@@ -220,6 +220,10 @@
                 {
                     "date": 1683499175344,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n \t\t</label>\r\n \t\t<br><br>\r\n \t\t<input type=\"submit\" value=\"Submit\" onclick=\"displayMessage()\">\r\n \t</form>\r\n-\t\r\n+\t<br><br>\r\n </body>\r\n <footer>\r\n \t<p>&copy; 2023 Vibe Check. All rights reserved.</p>\r\n   </footer>  \r\n"
+                },
+                {
+                    "date": 1688333392238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <!DOCTYPE html>\r\n <html>\r\n <head>\r\n \t<title>Dis-Service</title>\r\n+\t<link rel=\"icon\" href=\"VCFavicon.png\" type=\"image/x-icon\">\r\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\r\n \t<script src=\"scripts.js\"></script>\r\n </head>\r\n <body>\r\n"
                 }
             ],
             "date": 1683001442382,
